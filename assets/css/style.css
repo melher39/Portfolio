@@ -54,6 +54,10 @@ i {
   
 }
 
+.modal-content h2, h5{
+  font-weight: bold;
+}
+
 .nav-title{
   margin-right:200px;
 }
