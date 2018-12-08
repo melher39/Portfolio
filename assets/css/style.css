@@ -54,6 +54,13 @@ i {
   
 }
 
+#project-header {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10%;
+}
+
+
 .modal-content h2, h5{
   font-weight: bold;
 }
