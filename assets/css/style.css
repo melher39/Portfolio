@@ -37,9 +37,17 @@ main {
   font-weight: bold;
 }
 
+.project-titles {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
 .carousel .carousel-item {
   width: 80% !important;
+  height: auto;
 }
+
 
 @media only screen and (max-width : 992px) {
   header, main, footer {
