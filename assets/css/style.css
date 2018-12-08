@@ -34,6 +34,7 @@ main {
 
 #job-title{
   margin: 0 auto;
+  font-weight: bold;
 }
 
 .carousel .carousel-item {
