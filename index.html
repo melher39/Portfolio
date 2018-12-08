@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <title>Melvin Hernandez</title>
 
   <!-- CSS and icons -->
@@ -11,12 +12,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
   <!-- my custom css -->
-  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
   <!-- <nav class="light-blue lighten-1" role="navigation"> -->
-    <!-- <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+  <!-- <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
       </ul>
@@ -31,33 +32,56 @@
   <ul id="slide-out" class="sidenav sidenav-fixed ">
     <div class="center-align light-blue accent-3">
       <li>
-      <img src="assets/images/selfie.jpg" id="selfie" class="circle hoverable ">
-    </li>
+        <img src="assets/images/selfie.jpg" id="selfie" class="circle hoverable ">
+      </li>
 
       <h5 class="white-text">Melvin Hernandez</h5>
-    
-    <li>
-      <span>
-      <a href="https://www.linkedin.com/in/melvin-hernandez/" target="_blank">
-        <img src="assets/images/linkedin.png" alt="Melvin Hernandez LinkedIn Profile" class="hoverable">
-      </a>
-      <a href="https://github.com/melher39" target="_blank">
-        <img src="assets/images/github-circle.png" alt="Melvin Hernandez gitHub Profile" class="hoverable">
-      </a>
-    </span>
-    </li>
-  </div>
-  <div>
-      <a href="#!" ><li class="material-icons">home</li></a>
-    <li><a href="#!">Second Sidebar Link</a></li>
-  </div>
+
+      <li>
+        <span>
+          <a href="https://www.linkedin.com/in/melvin-hernandez/" target="_blank">
+            <img src="assets/images/linkedin.png" alt="Melvin Hernandez LinkedIn Profile" class="hoverable">
+          </a>
+          <a href="https://github.com/melher39" target="_blank">
+            <img src="assets/images/github-circle.png" alt="Melvin Hernandez gitHub Profile" class="hoverable">
+          </a>
+        </span>
+      </li>
+    </div>
+    <br>
+
+    <!-- this will take you home -->
+    <div>
+      <li>
+
+        <a href="#top">
+          <i class="medium material-icons light-blue-text text-accent-3">home</i><i>Home</i>
+        </a>
+      </li>
+    </div>
+    <!-- this will take you to the projects section -->
+
+
+    <div>
+      <li>
+
+        <a href="#carousel-section">
+          <i class="medium material-icons light-blue-text text-accent-3">code</i>
+          <i class="nav-title">Projects</i>
+
+        </a>
+      </li>
+    </div>
+
+
+
   </ul>
 
   <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
 
   <main class="light-blue accent-1">
 
-  <!-- <div class="section no-pad-bot" id="index-banner">
+    <!-- <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
       <h1 class="header center orange-text">Starter Template</h1>
@@ -73,25 +97,44 @@
   </div> -->
 
 
-  <div class="container">
-    <div class="section">
+    <div class="container">
 
-      <div class="row">
-        <div class="col s12">
-          <div class="intro valign-wrapper">
-            <h1 id="job-title" class="white-text"></h1>
+      <div class="section">
+
+        <div class="row" id="top">
+          <div class="col s12">
+            <div class="intro valign-wrapper">
+              <h1 id="job-title" class="white-text"></h1>
+            </div>
           </div>
-            <div class="carousel">
-                <a class="carousel-item" href="https://ambellinger.github.io/team1groupproject/" target="_blank"> <h3 class="project-titles">Let's CookIt!</h3> <img src="assets/images/lets-cook-it-screenshot.png" class="hoverable"></a>
-                <a class="carousel-item" href="https://melher39.github.io/TriviaGame/" target="_blank"> <h3 class="project-titles">The Simpsons Trivia!</h3> <img src="assets/images/the-simpsons-trivia-screenshot.png" class="hoverable"></a>
-                <a class="carousel-item" href="https://melher39.github.io/Word-Guess-Game/" target="_blank"> <h3 class="project-titles">Seinfeld Word Guess Game!</h3> <img src="assets/images/seinfeld-word-guess-screenshot.png" class="hoverable"></a>
-                <a class="carousel-item" href="https://melher39.github.io/TrainScheduler/" target="_blank"> <h3 class="project-titles">Train Scheduler</h3> <img src="assets/images/train-sheduler-screenshot.png" class="hoverable"></a>
-              </div>
         </div>
-      </div>
 
-      <!--   Icon Section   -->
-      <!-- <div class="row">
+        <div class="row">
+          <div class="col s12">
+
+            <div class="carousel">
+              <a class="carousel-item" href="https://ambellinger.github.io/team1groupproject/" target="_blank" name="carousel-section">
+                <h3 class="project-titles">Let's CookIt!</h3> <img src="assets/images/lets-cook-it-screenshot.png"
+                  class="hoverable">
+              </a>
+              <a class="carousel-item" href="https://melher39.github.io/TriviaGame/" target="_blank">
+                <h3 class="project-titles">The Simpsons Trivia!</h3> <img src="assets/images/the-simpsons-trivia-screenshot.png"
+                  class="hoverable">
+              </a>
+              <a class="carousel-item" href="https://melher39.github.io/Word-Guess-Game/" target="_blank">
+                <h3 class="project-titles">Seinfeld Word Guess Game!</h3> <img src="assets/images/seinfeld-word-guess-screenshot.png"
+                  class="hoverable">
+              </a>
+              <a class="carousel-item" href="https://melher39.github.io/TrainScheduler/" target="_blank">
+                <h3 class="project-titles">Train Scheduler</h3> <img src="assets/images/train-sheduler-screenshot.png"
+                  class="hoverable">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--   Icon Section   -->
+        <!-- <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
@@ -120,11 +163,34 @@
         </div>
       </div> -->
 
-    </div>
-    <br><br>
-  </div>
 
-</main>
+        <!-- floating button section -->
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red waves-effect waves-light modal-trigger" href="#modal1">
+            <i class="large material-icons">alternate_email</i>
+          </a>
+
+        </div>
+
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal bottom-sheet">
+          <div class="modal-content">
+            <h3 class="center-align">Contact Information</h3>
+            <h5 class="center-align">Phone Number: 312.838.1617</h5>
+            <h5 class="center-align">Email Address: melher39@gmail.com</h5>
+            
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Got it!</a>
+          </div>
+        </div>
+
+      </div>
+      <br><br>
+    </div>
+
+  </main>
 
   <footer class="page-footer light-blue">
 
@@ -161,7 +227,7 @@
 
     <div class="footer-copyright">
       <div class="container right-align">
-      Made by <a class="cyan-text text-lighten-3" href="https://github.com/melher39">Melvin Hernandez</a>
+        Made by <a class="cyan-text text-lighten-3" href="https://github.com/melher39">Melvin Hernandez</a>
       </div>
     </div>
   </footer>
@@ -174,5 +240,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="assets/js/app.js"></script>
 
-  </body>
+</body>
+
 </html>

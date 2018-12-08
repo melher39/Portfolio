@@ -21,9 +21,15 @@ function typeWriter() {
 typeWriter();
 
 
+
 $('.sidenav').sidenav();
 
 $('.carousel').carousel();
+
+// modal function
+$('.modal').modal();
+// floating button
+$('.fixed-action-btn').floatingActionButton();
 
 
 }); // end of document ready
