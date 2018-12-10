@@ -1,87 +1,84 @@
 /* Custom Stylesheet */
 
-/* .icon-block {
-  padding: 0 15px;
-} */
+/* padding for text to be aligned */
+.nav-material-icons {
+  padding-right: 20%;
+}
 
-/* .icon-block .material-icons {
-	font-size: inherit;
-} */
-
+/* make content full screen when sidenav is shown */
 header, main, footer {
   padding-left: 300px;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
+/* profile pic */
 #selfie {
   max-width: 50%;
   height: auto;
   margin-top: 10%;
 }
 
+/* section will take up the full display */
 .intro {
   min-height: 100vh;
 }
 
+/* centering the job title section */
 #job-title{
   margin: 0 auto;
   font-weight: bold;
 }
 
+/* project title styling */
 .project-titles {
   font-weight: bold;
   text-align: center;
   color: white;
 }
 
+/* carousel screenshots to be only 80% so they're visible and centered */
 .carousel .carousel-item {
   width: 80% !important;
   height: auto;
 }
 
-
+/* material icons text to be bold */
 i {
   font-weight: bold;
-  
 }
 
+/* main project header styling */
 #project-header {
   font-weight: bold;
   font-style: italic;
   margin-bottom: 10%;
 }
 
-
+/* contact info within bottom modal */
 .modal-content h2, h5{
   font-weight: bold;
 }
 
-.nav-title{
-  margin-right:200px;
-}
-
-.material-icons {
-  align-content: center;
-}
-
-
+/* for screens smaller than 993px... */
 @media only screen and (max-width : 992px) {
+  /* hide sidenav */
   header, main, footer {
     padding-left: 0;
   }
 
+  /* make carousel items 100% width */
   .carousel .carousel-item {
     width: 100% !important;
     height: auto;
   }
 
+}
+
+/* for screens smaller than 601px... */
+@media only screen and (max-width: 600px) {
+  /* make profile pic smaller */
+  #selfie {
+    max-width: 35%;
+    height: auto;
+    margin-top: 10%;
+  }
 }

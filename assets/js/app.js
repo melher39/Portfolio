@@ -18,22 +18,25 @@ function typeWriter() {
   }
 }
 
+// run typewriter
 typeWriter();
-
 
 // sidenav bar function
 $('.sidenav').sidenav();
+
 // carousel function
 $('.carousel').carousel();
 
 // modal function
 $('.modal').modal();
+
 // floating button
 $('.fixed-action-btn').floatingActionButton();
+
 // function to display button hint
 $('.tooltipped').tooltip();
 
 
-}); // end of document ready
+});
 
 

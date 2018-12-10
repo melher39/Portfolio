@@ -5,38 +5,27 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <title>Melvin Hernandez</title>
-
   <!-- CSS and icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified materialize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
   <!-- my custom css -->
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body>
-  <!-- <nav class="light-blue lighten-1" role="navigation"> -->
-  <!-- <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+<body class="light-blue accent-3">
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div> -->
-  <!-- </nav> -->
-
+  <!-- sidenav, fully visible on full screen, hidden on medium screens and lower -->
   <ul id="slide-out" class="sidenav sidenav-fixed ">
     <div class="center-align light-blue accent-3">
+      <!-- profile pic, this will be replaced with a "professional" photo eventually -->
       <li>
-        <img src="assets/images/selfie.jpg" id="selfie" class="circle hoverable ">
+        <img src="assets/images/selfie.jpg" id="selfie" class="circle hoverable">
       </li>
 
       <h5 class="white-text">Melvin Hernandez</h5>
 
+      <!-- LinkedIn and github links to open in a new tab -->
       <li>
         <span>
           <a href="https://www.linkedin.com/in/melvin-hernandez/" target="_blank">
@@ -53,24 +42,20 @@
     <!-- this will take you home -->
     <div>
       <li>
-
         <a href="#top">
-          <i class="medium material-icons light-blue-text text-accent-3">home</i>
+          <i class="medium material-icons light-blue-text text-accent-3 nav-material-icons">home</i>
           <i>Home</i>
         </a>
       </li>
     </div>
     <br>
+
     <!-- this will take you to the projects section -->
-
-
     <div>
       <li>
-
         <a href="#carousel-section">
-          <i class="medium material-icons light-blue-text text-accent-3">code</i>
+          <i class="medium material-icons light-blue-text text-accent-3 nav-material-icons">code</i>
           <i>Projects</i>
-
         </a>
       </li>
     </div>
@@ -78,44 +63,29 @@
     <br>
 
     <div>
-        <li>
-  
-          <a href="assets/docs/Services Provided.docx" download>
-            <i class="medium material-icons light-blue-text text-accent-3">attachment</i>
-            <i>Resume</i>
-  
-          </a>
-        </li>
-      </div>
+      <li>
+        <!--resume download  -->
+        <a href="assets/docs/Services Provided.docx" download>
+          <i class="medium material-icons light-blue-text text-accent-3 nav-material-icons">attachment</i>
+          <i>Resume</i>
+        </a>
+      </li>
+    </div>
 
 
 
   </ul>
 
-  <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
+  <!-- sidenav hamburger menu button and function -->
+  <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only white-text"><i class="medium material-icons">menu</i></a>
 
   <main class="light-blue accent-1">
-
-    <!-- <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-      </div>
-      <div class="row center">
-        <a href="https://github.com/melher39" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
-      <br><br>
-
-    </div>
-  </div> -->
-
 
     <div class="container">
 
       <div class="section">
 
+        <!-- section where my job title will appear -->
         <div class="row" id="top">
           <div class="col s12">
             <div class="intro valign-wrapper">
@@ -126,26 +96,26 @@
 
         <div class="row">
 
+          <!-- carousel section -->
           <div class="col s12" id="carousel-section">
             <div class="row center-align">
-              <h1 id="project-header">Projects</h1>
+              <h1 id="project-header"> < Projects > </h1>
             </div>
           </div>
-          
 
           <div class="col s12">
 
             <div class="carousel">
-              <a class="carousel-item" href="https://ambellinger.github.io/team1groupproject/" target="_blank" >
-                <h3 class="project-titles">Let's CookIt!</h3> <img src="assets/images/lets-cook-it-screenshot.png"
+              <a class="carousel-item" href="https://ambellinger.github.io/team1groupproject/" target="_blank">
+                <h3 class="project-titles">Let's CookIt</h3> <img src="assets/images/lets-cook-it-screenshot.png"
                   class="hoverable">
               </a>
               <a class="carousel-item" href="https://melher39.github.io/TriviaGame/" target="_blank">
-                <h3 class="project-titles">The Simpsons Trivia!</h3> <img src="assets/images/the-simpsons-trivia-screenshot.png"
+                <h3 class="project-titles">The Simpsons Trivia</h3> <img src="assets/images/the-simpsons-trivia-screenshot.png"
                   class="hoverable">
               </a>
               <a class="carousel-item" href="https://melher39.github.io/Word-Guess-Game/" target="_blank">
-                <h3 class="project-titles">Seinfeld Word Guess Game!</h3> <img src="assets/images/seinfeld-word-guess-screenshot.png"
+                <h3 class="project-titles">Seinfeld Word Guessing Game</h3> <img src="assets/images/seinfeld-word-guess-screenshot.png"
                   class="hoverable">
               </a>
               <a class="carousel-item" href="https://melher39.github.io/TrainScheduler/" target="_blank">
@@ -156,111 +126,52 @@
           </div>
         </div>
 
-        <!--   Icon Section   -->
-        <!-- <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div> -->
-
-
+        
         <!-- floating button section -->
         <div class="fixed-action-btn">
-          <a class="btn-floating btn-large red waves-effect waves-light modal-trigger pulse tooltipped" data-position="left" data-tooltip="Contact Info." href="#modal1">
+          <a class="btn-floating btn-large red waves-effect waves-light modal-trigger pulse tooltipped" data-position="left"
+            data-tooltip="Contact Info." href="#modal1">
             <i class="large material-icons">alternate_email</i>
           </a>
-
         </div>
-
 
         <!-- bottom modal with contact info -->
         <div id="modal1" class="modal bottom-sheet">
           <div class="modal-content">
             <h2 class="center-align">Contact Me</h2>
-            <h5 class="center-align light-blue-text text-darken-2">Phone Number: 312.838.1617</h5>
-            <h5 class="center-align light-blue-text text-darken-2">Email Address: melher39@gmail.com</h5>
-            
+            <h5 class="center-align">Phone Number: <a href="tel:+3128381617" class="light-blue-text text-darken-2">312.838.1617</a></h5>
+            <h5 class="center-align">Email Address: <a href="mailto:melher39@gmail.com" class="light-blue-text text-darken-2">melher39@gmail.com</a></h5>
           </div>
           <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Got it!</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn red">Got it!</a>
           </div>
         </div>
 
       </div>
-      <br><br>
+      <br>
+      <br>
     </div>
 
   </main>
 
+  <!-- footer section -->
   <footer class="page-footer light-blue">
-
     <div class="container">
-
-      <!-- <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div> -->
-
     </div>
-
     <div class="footer-copyright">
       <div class="container right-align">
-        Made by <a class="cyan-text text-lighten-3" href="https://github.com/melher39">Melvin Hernandez</a>
+        Made by <a class="cyan-text text-lighten-3" href="https://github.com/melher39" target="_blank">Melvin Hernandez</a>
       </div>
     </div>
   </footer>
 
 
   <!-- Scripts -->
-  <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+  <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Compiled and minified materialize JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- my js linked -->
   <script src="assets/js/app.js"></script>
 
 </body>
