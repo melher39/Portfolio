@@ -1,5 +1,10 @@
 /* Custom Stylesheet */
 
+/* hide the scrollbar in chrome, safari and opera browsers */
+::-webkit-scrollbar{
+  display: none;
+}
+
 /* padding for text to be aligned */
 .nav-material-icons {
   padding-right: 20%;
