@@ -53,6 +53,7 @@ i {
 
 /* main project header styling */
 #project-header {
+  font-family: 'Shrikhand', cursive;
   font-weight: bold;
   font-style: italic;
   margin-bottom: 10%;
