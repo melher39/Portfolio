@@ -23,8 +23,13 @@ header, main, footer {
 }
 
 /* section will take up the full display */
-.intro {
+.intro{
   min-height: 100vh;
+}
+
+/* projects section will take up 80% height relative to the display, in order to include the footer */
+#carousel-section {
+  min-height: 80vh;
 }
 
 /* centering the job title section */

@@ -36,6 +36,9 @@ $('.fixed-action-btn').floatingActionButton();
 // function to display button hint
 $('.tooltipped').tooltip();
 
+// collapsible content
+$('.collapsible').collapsible();
+
 
 });
 
