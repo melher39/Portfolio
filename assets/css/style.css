@@ -43,6 +43,10 @@ header, main, footer {
   background-color: #e1f5fe;
 }
 
+.collapsible-header {
+  font-weight: bold;
+}
+
 /* project title styling */
 .project-titles {
   font-weight: bold;
