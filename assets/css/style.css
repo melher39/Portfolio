@@ -56,12 +56,6 @@ header, main, footer {
   color: white;
 }
 
-/* carousel screenshots to be only 80% so they're visible and centered */
-.carousel .carousel-item {
-  width: 80% !important;
-  height: auto;
-}
-
 /* material icons text to be bold */
 i {
   font-weight: bold;
@@ -107,5 +101,9 @@ i {
     max-width: 35%;
     height: auto;
     margin-top: 10%;
+  }
+  /* make the projects section header 10% of the viewport so it can fit in one line */
+  #project-header {
+    font-size: 10vw;
   }
 }
