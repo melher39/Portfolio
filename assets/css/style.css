@@ -23,7 +23,7 @@ header, main, footer {
 }
 
 /* section will take up the full display */
-.intro{
+.intro {
   min-height: 100vh;
 }
 
@@ -36,6 +36,11 @@ header, main, footer {
 #job-title{
   margin: 0 auto;
   font-weight: bold;
+}
+
+/* collapsible content */
+.collapsible-body {
+  background-color: #e1f5fe;
 }
 
 /* project title styling */
