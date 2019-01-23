@@ -57,7 +57,7 @@
     <!-- this will take you to the projects section -->
     <div>
       <li>
-        <a href="#carousel-section">
+        <a href="#collapsible-section">
           <i class="medium material-icons light-blue-text text-accent-3 nav-material-icons">code</i>
           <i>Projects</i>
         </a>
@@ -98,9 +98,11 @@
           </div>
         </div>
 
-        <div class="row" id="carousel-section">
+        <!-- collapsible section -->
 
-          <!-- collapsible section -->
+        <div class="row" id="collapsible-section">
+
+          <!-- projects section title -->
           <div class="col s12">
             <div class="row center-align">
               <h1 id="project-header">
@@ -111,8 +113,11 @@
 
           <div class="row">
 
+            <!-- collapsible module used for displaying my projects -->
             <div class="col s12 project-section">
               <ul class="collapsible popout tooltipped" data-tooltip="+/-" data-position="top">
+                <!-- all project descriptions basically follow the same display -->
+                <!-- this <li> section is for the let's cookIt project -->
                 <li>
                   <div class="collapsible-header"><i class="material-icons light-blue-text text-accent-3">fastfood</i>Let's
                     CookIt</div>
@@ -144,6 +149,7 @@
                   </div>
                 </li>
 
+                <!-- this <li> section is for the Friend Finder app -->
                 <li>
                   <div class="collapsible-header"><i class="material-icons light-blue-text text-accent-3">group_add</i>Friend
                     Finder</div>
@@ -155,8 +161,10 @@
                       <div class="col s6">
                         <p>Full-stack web application that helps you match with a compatible user.</p>
                         <ul class="browser-default">
-                          <li>Using a short survey of 10 questions, this app will calculate your most compatible match based on your answers.</li>
-                          <li>Tools & languages applied: HTML5, CSS3, Materialize.css, JavaScript, jQuery, Node.js, Express.js, JSON</li>
+                          <li>Using a short survey of 10 questions, this app will calculate your most compatible match
+                            based on your answers.</li>
+                          <li>Tools & languages applied: HTML5, CSS3, Materialize.css, JavaScript, jQuery, Node.js,
+                            Express.js, JSON</li>
                         </ul>
                       </div>
                     </div>
@@ -174,6 +182,7 @@
                   </div>
                 </li>
 
+                <!-- this <li> section is for the simpsons trivia game app -->
                 <li>
                   <div class="collapsible-header"><i class="material-icons light-blue-text text-accent-3">tv</i>The
                     Simpsons Trivia</div>
@@ -185,7 +194,7 @@
                       <div class="col s6">
                         <p>Trivia game web app to test your knowledge on the popular TV show “The Simpsons”.</p>
                         <ul class="browser-default">
-                          <li>There are 10 questions the user has to answer in order to finish the game and see the
+                          <li>There are 10 questions the user has to answer in order to finish the game and view the
                             results.</li>
                           <li>Tools & languages applied: HTML5, CSS3, Bootstrap, JavaScript, jQuery</li>
                         </ul>
@@ -205,6 +214,7 @@
                   </div>
                 </li>
 
+                <!-- this <li> section is for the LIRI app -->
                 <li>
                   <div class="collapsible-header"><i class="material-icons light-blue-text text-accent-3">memory</i>LIRI</div>
                   <div class="collapsible-body">
@@ -258,10 +268,7 @@
             <a href="#!" class="modal-close waves-effect waves-green btn red">Got it!</a>
           </div>
         </div>
-
       </div>
-      <br>
-      <br>
     </div>
 
   </main>
@@ -278,7 +285,7 @@
   </footer>
 
 
-  <!-- Scripts -->
+  <!-- Scripts at the bottom of the page to optimize loading time -->
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Compiled and minified materialize JavaScript -->

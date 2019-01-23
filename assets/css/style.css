@@ -1,6 +1,7 @@
 /* Custom Stylesheet */
 
-/* hide the scrollbar in chrome, safari and opera browsers */
+/* hide the scrollbar in chrome, safari and opera browsers
+without affecting the scroll function */
 ::-webkit-scrollbar{
   display: none;
 }
@@ -27,9 +28,9 @@ header, main, footer {
   min-height: 100vh;
 }
 
-/* projects section will take up 80% height relative to the display, in order to include the footer */
-#carousel-section {
-  min-height: 80vh;
+/* projects section will take up 85% height relative to the display, in order to include the footer */
+#collapsible-section {
+  min-height: 85vh;
 }
 
 /* centering the job title section */
@@ -43,6 +44,7 @@ header, main, footer {
   background-color: #e1f5fe;
 }
 
+/* the title of the projects */
 .collapsible-header {
   font-weight: bold;
 }
@@ -73,6 +75,18 @@ i {
   margin-bottom: 10%;
 }
 
+/* p html element styling within the project section */
+.project-section p {
+  font-family: 'Shrikhand', cursive;
+  font-size: 120%;
+  margin-top: 0;
+}
+
+/* list items in the project section styling */
+.project-section li {
+  font-size: 105%;
+}
+
 /* contact info within bottom modal */
 .modal-content h2, h5{
   font-weight: bold;
@@ -84,13 +98,6 @@ i {
   header, main, footer {
     padding-left: 0;
   }
-
-  /* make carousel items 100% width */
-  .carousel .carousel-item {
-    width: 100% !important;
-    height: auto;
-  }
-
 }
 
 /* for screens smaller than 601px... */
