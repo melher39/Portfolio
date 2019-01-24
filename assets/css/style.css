@@ -86,8 +86,14 @@ i {
   font-weight: bold;
 }
 
+/* makes hamburger menu fixed when shown */
 .sidenav-trigger {
   position: fixed;
+}
+
+/* default is 23px, set it to 35 px so footer text can be seen on mobile */
+.fixed-action-btn {
+  bottom: 35px;
 }
 
 /* for screens smaller than 993px... */
