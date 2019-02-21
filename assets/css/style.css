@@ -30,7 +30,7 @@ header, main, footer {
 
 /* projects section will take up 85% height relative to the display, in order to include the footer */
 #collapsible-section {
-  min-height: 85vh;
+  min-height: 100vh;
 }
 
 /* centering the job title section */
