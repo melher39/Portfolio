@@ -33,6 +33,11 @@ header, main, footer {
   min-height: 100vh;
 }
 
+/* bio will take up the full display including the footer */
+#about-me {
+  min-height: 60vh;
+}
+
 /* centering the job title section */
 #job-title{
   margin: 0 auto;
@@ -81,6 +86,12 @@ i {
   font-size: 105%;
 }
 
+/* about me title */
+ #about-me h3 {
+  font-family: 'Shrikhand', cursive;
+
+ }
+
 /* contact info within bottom modal */
 .modal-content h2, h5{
   font-weight: bold;
@@ -112,8 +123,10 @@ i {
     height: auto;
     margin-top: 10%;
   }
-  /* make the projects section header 10% of the viewport so it can fit in one line */
-  #project-header {
+  /* make the projects section header and about me title 10% of the viewport so it can fit in one line */
+  #project-header, 
+  #about-me h3 {
     font-size: 10vw;
+    text-align: center;
   }
 }
