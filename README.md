@@ -7,7 +7,4 @@ The projects are displayed in a collapsible component and are expanded or minimi
 
 The site is mobile-responsive and all links open in new tabs. The links will take you to my LinkedIn profile, my GitHub profile and to the deployed sites of the respective project you choose.
 
-Also, attached is my resume, which you can download in PDF format.
-
 Thanks for stopping by.
-
